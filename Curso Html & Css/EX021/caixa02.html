@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 1px 14px 6px rgba(56, 54, 54, 0.363);
+        }
+        nav {
+            background-color:rgb(102, 97, 97) ;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.342);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+            box-shadow: 2px 2px black;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+             margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+<header><h1>Meu site</h1> 
+    <nav>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+
+    </nav>
+</header>
+<main>
+      <section id="Assuntos">
+
+      </section>
+      <section id="noticias">
+          <article>
+              <h2>Noticia sobre o Brasil</h2>
+              <p>Qual é o nome do maior produtor de café do Brasil?
+                Resultado de imagem para brasil maior produtor de café
+                Maior produtor de café do Brasil, João Faria controla 6 mil hectares. Distribuídos por sete propriedades, localizadas nas principais regiões produtoras do Brasil.</p>
+
+              <article>
+                  <aside>
+                      <p>Artigo escrito por Evanilson Alves Rodrigues</p>
+                  </aside>
+              </article>
+          </article>
+
+      </section>
+
+</main>
+<footer>
+     <p>Desenvolvido pelo curso em video </p>         
+                                                                                                          <div id="bola"> </div>
+
+</footer>
+
+</body>
+</html> 
