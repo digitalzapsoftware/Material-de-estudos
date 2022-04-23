@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' , sans-serif;
+}
+
+
+@keyframes anim1{
+    from {background-color: aqua;}
+    to {background-color:rgb(38, 0, 255) ;}
+
+}
+
+.teste{
+    width: 400px;
+    height: 400px;
+   background-color:aqua;
+   animation-name: anim1;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+}   
