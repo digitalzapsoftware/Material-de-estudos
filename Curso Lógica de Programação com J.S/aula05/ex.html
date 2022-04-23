@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação</title>
+</head>
+<body>
+
+    <h1>Lógica de Programação</h1>
+
+    <script>
+       
+      var j1 = prompt('Digite um número!')
+      j1 = parseInt(j1)
+
+      var j2 = prompt('Digite outro número')
+      j2 = parseInt(j2)
+
+      if(j1 === j2) {
+        alert('Voces empataram!')
+      } else {
+        var nSorteado = parseInt(Math.random() * 2)
+      }
+
+      if(nSorteado === 0) {
+        if(j1 < j2) {
+          alert('Ganhou o Jogador 1 !')
+        } else {
+          alert('Ganhou o Jogador 2 !')
+        }
+      } else {
+        if (j1 > j2) {
+          alert('Ganhou o Jogador 1 !')
+        } else {
+          alert('Ganhou o Jogador 2 !')
+        }       
+      }
+
+
+    </script>
+
+</body>
+</html>
