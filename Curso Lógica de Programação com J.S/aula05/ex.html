@@ -22,21 +22,13 @@
         alert('Voces empataram!')
       } else {
         var nSorteado = parseInt(Math.random() * 2)
+        alert('nSorteado:' + nSorteado)
       }
 
-      if(nSorteado === 0) {
-        if(j1 < j2) {
-          alert('Ganhou o Jogador 1 !')
-        } else {
-          alert('Ganhou o Jogador 2 !')
-        }
-      } else {
-        if (j1 > j2) {
-          alert('Ganhou o Jogador 1 !')
-        } else {
-          alert('Ganhou o Jogador 2 !')
-        }       
+      if (nSorteado === 0 && j1 < j2 || nSorteado === 1 && j1 > j2) {
+        alert('Ganhou o jogador 1')
       }
+
 
 
     </script>
