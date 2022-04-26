@@ -17,15 +17,15 @@
 
        var indice = 1
 
-       while(indice <=  10) {
+       while(indice <=  50) {
            document.write(numero + 'x' + indice + '=' + numero *  indice + '<br>' )
 
-           indice = indice + 1
+           if(indice % 10 === 0 && indice > 0) {
+               document.write('<hr>')
+           }
 
-           if(indice % 10 === 0)
+           indice = indice + 1
        }
-       
-       document.write('Saiu do loop')
 
     </script>
 
