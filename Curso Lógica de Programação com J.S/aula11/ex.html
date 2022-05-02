@@ -10,15 +10,40 @@
 
     <h1>Lógica de Programação</h1>
 
+    <button onclick="mostrarTabuada()">Criar Tabuada</button>
+    <button onclick="limparTabuada">Limpar Tabuada</button>
+
+
     <div id="output"></div>
 
     <script>
-    
+
+        function mostrarTabuada(){
+            var n = prompt('Digite um número');
+
+            limparTabuada();
+
+            n = parseFloat(n);
+
+            var i = 1;
+
+            while(i <= 1000) {
+                mensagem += n + ' x '+ i +' = '+ (n*i) +' <br>' 
+                i++;
+            }
+
+            output.innerHTML = mensagem;
+
+        } 
+
+        function limparTabuada() {
+            mensagem = '';
+            output.innerHTML = mensagem;
+        }
+
         var output = document.querySelector('#output');
 
-        console.log(output)
-
-        output.innerHTML = 'Texto inserido por JavaScript'
+        var mensagem = '';
 
     </script>
 
