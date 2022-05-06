@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript, Danki Code.</title>
+</head>
+<body>
+    
+    <script>
+
+        function testes() {
+            //executado  quando chamar a função.
+            console.log('chamando a função testes')
+        }
+        function teste2(nome, idade) {
+            console.log('O nome passado é:'+nome)
+            console.log('A idades é:'+idade)
+        }
+
+        function pegarNome(parametro) {
+            if(parametro == 1) {
+                return 'Nilson'
+            } else {
+                return 'Outro nome'
+            }
+        }
+
+        var nome = pegarNome(1)
+        console.log(nome)
+
+    </script>
+
+</body>
+</html>
