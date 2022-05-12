@@ -8,16 +8,15 @@
 </head>
 <body>
 
-    <div id="box">Nilson</div>
+    <div class="testes">
+        <div class="inside-testes">Nilson</div>
+    </div>
   
     <script>
  
-        var el = document.getElementById('box');
+        var els = document.querySelectorAll('.testes .inside-testes');
 
-        el.style.width = 100;
-        el.style.height = 100;
-        el.style.backgroundColor = 'blue';
-        el.style.color = 'white';
+        els[0].style.color = 'red';
 
     </script>
     
