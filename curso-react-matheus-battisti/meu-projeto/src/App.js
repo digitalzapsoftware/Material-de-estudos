@@ -8,7 +8,7 @@ function App() {
 
     <div className="App">
      <h1>Testando eventos</h1>
-     <Evento numero={1}/>
+     <Evento/>
      <Form/>
     </div>
 
