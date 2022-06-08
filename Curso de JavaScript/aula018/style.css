@@ -1,0 +1,13 @@
+.div {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.animEsquerda {
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
