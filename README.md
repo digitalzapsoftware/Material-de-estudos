@@ -1,11 +1,7 @@
 
-<h1 align='center'>Portfólio</h1>
+<h1 align='center'>Material de estudos</h1>
 
-<img src='./frontend.png'>
-
-<br/>
-
-<a href='https://evanilsonpg.github.io/Site-Portfolio-1/'>Clique aqui e veja o Portfólio --></a>
+<img src ='./frontend.png'>
 
 <br/>
 
