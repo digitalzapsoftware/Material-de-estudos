@@ -1,5 +1,11 @@
-body {
-  padding: 50px;
-  padding-bottom: 500px;
-  background-color: rgb(228, 228, 228);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #root {
+  background-color: #EFEFEF;
+  height: 100%;
 }

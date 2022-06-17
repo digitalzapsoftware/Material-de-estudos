@@ -1,31 +1,48 @@
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Navbar from './components/Navbar';
-import Contato from './pages/Contato';
-import Empresa from './pages/Empresa';
-import Home from './pages/Home';
+import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Home from './Components/Pages/Home'
+import Contact from './Components/Pages/Contact'
+import Company from './Components/Pages/Company'
+import NewProject from './Components/Pages/NewProject'
+import Container from './Components/layout/Container'
 
 function App() {
-
   return (
+     <Router>
+       <div>
 
-    <Router>
+         <Link to='/'>Home</Link>
+         <Link to='/contact'>Contato</Link>
+         <Link to='/company'>Empresa</Link>
+         <Link to='/newproject'>Novo Projeto</Link>
+         
+       
+       </div>
 
-      <Navbar />
-      <Switch>
-        <Route exact path='/'>
+       <Switch>
+
+        <Container customClass='min-height'>
+         <Route exact path='/'> 
           <Home />
-        </Route>
-        <Route path='/empresa'>
-          <Empresa />
-        </Route>
-        <Route path='/contato'>
-          <Contato />
-        </Route>
-      </Switch>
-      
-    </Router>
+         </Route>
+         <Route exact path='/company'>
+          <Company />
+         </Route>
+         <Route exact path='/contact'>
+          <Contact />
+         </Route>
+         <Route exact path='/newproject'>
+          <NewProject />
+         </Route>
+         </Container>
 
-  )             
+       </Switch>
+
+       <p>
+         Footer
+       </p>
+
+     </Router>
+  )
 }
 
 export default App;
