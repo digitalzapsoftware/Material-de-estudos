@@ -8,7 +8,7 @@ import Container from './Components/layout/Container'
 function App() {
   return (
      <Router> 
-       
+
        <div>
 
          <Link to='/'>Home</Link>
@@ -16,7 +16,6 @@ function App() {
          <Link to='/company'>Empresa</Link>
          <Link to='/newproject'>Novo Projeto</Link>
          
-       
        </div>
 
        <Switch>
