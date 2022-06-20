@@ -65,7 +65,6 @@ function App() {
        </div>
 
     </div>
-    
   )
 }
 
