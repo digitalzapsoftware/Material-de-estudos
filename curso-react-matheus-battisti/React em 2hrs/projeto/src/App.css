@@ -15,3 +15,45 @@
 .todo-header h1 {
   margin: 0;
 }
+
+.form-todo {
+  padding: 1em;
+  margin: 0 2em;
+  border-bottom: 1px solid #2c3035;
+}
+
+.form-todo h2, .list-todo h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-bottom: .4em;
+}
+
+.form-control input {
+  border: 1px solid #222;
+  border-radius: 2px;
+  background-color: #2c3035;
+  padding: 0.5em;
+  color: #dfdfdf;
+}
+
+input[type='submit'] {
+  background-color: #333;
+  color: #FFF;
+  display: block;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+}
