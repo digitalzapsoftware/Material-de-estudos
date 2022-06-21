@@ -30,7 +30,7 @@ function App() {
     loadData()
   }, [])
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
 
@@ -41,7 +41,7 @@ function App() {
       done: false,
     }
 
-    await fetch(API + '/todos', {
+      await fetch(API + '/todos', {
       method: 'POST',
       body: JSON.stringify(todo),
       headers: {
