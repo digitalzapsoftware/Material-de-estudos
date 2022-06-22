@@ -1,0 +1,112 @@
+.container-home {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 20px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.logo span {
+    color: #FFF;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    font-size: 19px;
+}
+
+.area-input {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideY 2s;
+}
+
+@keyframes slideY {
+    from {
+        transform: translateY(90px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.area-input div {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.area-input svg {
+    margin: 0 8px;
+}
+
+.area-input input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    height: 46px;
+    color: #FFF;
+    outline: none;
+    font-size: 14px;
+}
+
+.area-input input::placeholder {
+    color: rgb(252, 252, 252 , 0.8);
+}
+
+.area-input button {
+    width: 100%;
+    height: 38px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: bolder;
+    margin-top: 8px;
+    transition: transform 0.7s;
+}
+
+.area-input button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 615px ) {
+    .logo img {
+        width: 95px;
+    } 
+
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    .logo span {
+        font-size: 14px;
+    }
+
+    .area-input {
+        width: 85%;
+    }
+
+}
