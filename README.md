@@ -1,7 +1,9 @@
 
 <h1 align='center'>Material de estudos</h1>
 
+<p align="center">
 <img src ='./frontend.png'>
+</p>
 
 <br/>
 
