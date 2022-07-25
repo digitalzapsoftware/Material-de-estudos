@@ -1,1 +1,3 @@
-alert('Hello Word')
+function helloWord():number {
+    return 2;
+}
