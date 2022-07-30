@@ -17,7 +17,7 @@ Aqui possui todas as pastas de aulas adquiridas em toda a minha temporada de est
 <br/>
 <br/>
 
-### **Tecnologias que possui** -->
+### **Tecnologias Estudadas** -->
 <br/>
 
 - [HTML]()
@@ -26,4 +26,6 @@ Aqui possui todas as pastas de aulas adquiridas em toda a minha temporada de est
 - [REACT]()
 - [BOOTSTRAP]()
 - [GIT & GITHUB]()
+- [TypeScript]()
+
 
