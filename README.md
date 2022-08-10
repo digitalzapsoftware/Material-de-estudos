@@ -27,7 +27,3 @@ Aqui possui todas as pastas de aulas adquiridas em toda a minha temporada de est
 - [BOOTSTRAP]()
 - [GIT & GITHUB]()
 - [TypeScript]()
-
-
-
-
